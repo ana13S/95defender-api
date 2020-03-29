@@ -24,7 +24,7 @@ def mask_image():
     decoded_data = base64.b64decode(imgArr)
     np_data = np.fromstring(decoded_data, np.uint8)
     maskedImgArr = base64.b64encode(mask(np_data))
-    maskedImgStr = "".join( x for x in maskedImgArr)
+    maskedImgStr = "".join(x for x in maskedImgArr)
     return make_response(maskedImgStr)
 
 if __name__ == "__main__":

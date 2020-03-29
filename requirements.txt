@@ -1,7 +1,4 @@
-scikit-build
-cmake
-dlib==19.19.0
+pip==20.0.2
 imutils==0.5.3
-numpy==1.15.2
 Flask_Cors==3.0.8
 Flask==1.1.1
