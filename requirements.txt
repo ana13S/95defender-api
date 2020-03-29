@@ -1,3 +1,4 @@
+pip
 dlib==19.19.0
 imutils==0.5.3
 numpy==1.15.2
